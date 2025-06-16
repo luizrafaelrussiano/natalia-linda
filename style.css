@@ -10,6 +10,7 @@ header {
     background-color: #ff7f50; /* cor vibrante */
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -33,16 +34,25 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
+    color: #ffd700;
     text-decoration: underline;
+}
+
+main {
+    padding: 20px;
 }
 
 section {
     padding: 20px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
+    background-color: #fffaf0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -60,4 +70,13 @@ footer {
     padding: 10px;
     margin-top: 20px;
     color: #fff;
+}
+
+.imagem-sobre {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
 }
